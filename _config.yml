@@ -30,7 +30,7 @@ twitter_username: rickypalaguachi
 github_username:  rickypalaguachi
 
 # Build settings
-theme: minima
+theme: minimal
 plugins:
   - jekyll-feed
 author: Ricky Palaguachi
