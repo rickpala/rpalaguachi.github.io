@@ -1,5 +1,5 @@
 ---
 layout: default
-description: desc
+description: Welcome to my website!
 ---
 

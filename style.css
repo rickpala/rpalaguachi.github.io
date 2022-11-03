@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen+Mono&display=swap');
+
+body {
+  font-family: 'Oxygen Mono', 'sans-serif';
+  height: 100vh;
+  background: #1a1a1a;
+  color: #eee;
+  overflow: hidden;
+  
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-continer: center;
+  height: 100%;
+  padding: 0 3rem;
+}
+
+h1, h2 {
+  font-weight: 200;
+  margin: 0.4rem;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #bbb
+}
+
+.dollar {
+  color: #0f0;
+}
+
+/* Cursor */
+.pipe {
+  border-right: 0.2rem solid #777;
+/*   animation: blinker 0.3s linear infinite; */
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+/* Media queries help for wider/tighter browser windows */
+@media(min-width: 1200px) {
+  h1 {
+    font-size: 5rem;
+  }
+}
+
+/* 800px or smaller */
+@media(max-width: 800px) {
+  .container {
+    padding: 0 1rem;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+}
+
+/* 500px or smaller */
+@media(max-width: 500px) {
+  h1 {
+    font-size: 2.5rem
+  }
+}
