@@ -30,9 +30,12 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 # Build settings
-theme: minima
+theme: Hyde
 plugins:
-  - jekyll-feed
+ - jekyll-paginate
+ - jekyll-gist
+ - jekyll-seo-tag
+ - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -53,3 +56,28 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# Dependencies
+markdown:         kramdown
+highlighter:      rouge
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            
+tagline:          'Ricky Palaguachi'
+description:      'Programmer and mathematician. Passionate about technology.'
+url:              'www.rpalaguachi.com'
+baseurl:          /
+
+author:
+  name:           'Ricky Palaguachi'
+
+paginate:         5
+
+# Custom vars
+version:          0.1
+
+github:
+  repo:           https://github.com/rpalaguachi/rpalaguachi.github.io
