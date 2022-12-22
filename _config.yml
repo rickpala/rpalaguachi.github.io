@@ -59,6 +59,8 @@ description:      'The home webpage of Ricky Palaguachi.'
 url:              'www.rpalaguachi.com'
 baseurl:          /
 
+timezone: America/New_York
+
 author:
   name:           'Ricky Palaguachi'
 
