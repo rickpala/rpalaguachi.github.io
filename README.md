@@ -3,7 +3,7 @@ Herein lies all things Ricky Palaguachi. Built with [Jekyll](http://jekyllrb.com
 
 ## Contents
 - [Development](#development)
-
+- [TODOs](#todos)
 
 ## Development
 Currently, the website is built with Jekyll and hosted on GitHub Pages. Eventually, I plan to host this on my home lab.
@@ -31,3 +31,9 @@ $ git checkout -b ucid123/dev
 
 5. Make your changes, and open a pull request to the branch `gh-pages`. This
 branch is public-facing, thus all changes must be reviewed prior to merging.
+
+## TODOs
+- [ ] Social links
+- [ ] Remove default content
+- [ ] Fix weird rendering issue on github pages
+- [ ] Deploy from home lab
