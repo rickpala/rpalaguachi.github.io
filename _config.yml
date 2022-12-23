@@ -18,13 +18,6 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-# Build settings
-plugins:
- - jekyll-paginate
- - jekyll-gist
- - jekyll-seo-tag
- - jekyll-feed
-
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
@@ -56,7 +49,7 @@ permalink:        pretty
 title:            'Ricky Palaguachi'
 tagline:          'Programmer. Mathematician. Technologist.'
 description:      'The home webpage of Ricky Palaguachi.'
-# url:              'www.rpalaguachi.com'
+# TODO: Add 'url' when deploying to custom domain.
 # TODO: Add 'baseurl' when deploying to custom domain.
 
 timezone: America/New_York
@@ -71,3 +64,10 @@ version:          0.1
 
 github:
   repo:           https://github.com/rpalaguachi/rpalaguachi.github.io
+
+# Build settings
+plugins:
+ - jekyll-paginate
+ - jekyll-gist
+ - jekyll-seo-tag
+ - jekyll-feed
