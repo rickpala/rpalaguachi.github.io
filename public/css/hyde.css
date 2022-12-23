@@ -190,6 +190,12 @@ a.sidebar-nav-item:focus {
 .theme-base-09 .sidebar {
   background-color: #d28445;
 }
+
+.sidebar-nav > a {
+  /* Hacky way to make sidebar links orange */
+  color: #d28445;
+}
+
 .theme-base-09 .content a,
 .theme-base-09 .related-posts li a:hover {
   color: #d28445;
