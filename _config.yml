@@ -56,7 +56,7 @@ permalink:        pretty
 title:            'Ricky Palaguachi'
 tagline:          'Programmer. Mathematician. Technologist.'
 description:      'The home webpage of Ricky Palaguachi.'
-url:              'www.rpalaguachi.com'
+# url:              'www.rpalaguachi.com'
 # TODO: Add 'baseurl' when deploying to custom domain.
 
 timezone: America/New_York
