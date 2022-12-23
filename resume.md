@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Professional Résumé
+title: Résumé
 date: 2023-01
 ---
 
