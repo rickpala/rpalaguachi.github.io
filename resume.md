@@ -28,7 +28,7 @@ Designed and developed a full-stack web application to diagnose bug reports, boo
 * Built a front-end web UI in React.js to start, end, and view their automated workflows.
 * Developed a back-end API in Flask to fulfill job requests from a MongoDB database.
 * Deployed to internal production servers ready to handle thousands of job requests each day.
-* **Resulted in a minimum viable product built that substantially improved the team's worfklow.**
+* **Resulted in a minimum viable product built that substantially improved the team's workflow.**
 <hr>
 
 # New Jersey Institute of Technology
