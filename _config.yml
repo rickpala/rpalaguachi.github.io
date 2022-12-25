@@ -47,10 +47,11 @@ permalink:        pretty
 
 # Setup
 title:            'Ricky Palaguachi'
-tagline:          'Programmer. Mathematician. Technologist.'
-description:      'The home webpage of Ricky Palaguachi.'
+tagline:          'Personal Website'
+description:      'Programmer. Mathematician. Technology enthusiast.'
 # TODO: Add 'url' when deploying to custom domain.
 # TODO: Add 'baseurl' when deploying to custom domain.
+baseurl: '/'
 
 timezone: America/New_York
 
@@ -71,3 +72,8 @@ plugins:
  - jekyll-gist
  - jekyll-seo-tag
  - jekyll-feed
+
+collections:
+  notes:
+    output: true
+    
