@@ -43,7 +43,7 @@ time, I will remaster them to a digital format (probably using some OCR).
 | CS    | Intro CS (Java)                                 | [x]      | [ ]          | [ ]         |
 | CS    | Data Structures and Algorithms (Java)           | [x]      | [x]          | [ ]         |
 | CS    | Discrete Mathematics                            | [x]      | [ ]          | [ ]         |
-| CS    | Database Design                                 | [x]      | [ ]          | [ ]         |
+| CS    | [Database Design][DatabaseDesign]               | [x]      | [ ]          | [ ]         |
 | CS    | Operating Systems                               | [x]      | [ ]          | [ ]         |
 | CS    | Theory of Computation                           | [x]      | [ ]          | [ ]         |
 | CS    | Computer Networks                               | [x]      | [ ]          | [ ]         |
