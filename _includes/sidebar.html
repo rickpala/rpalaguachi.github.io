@@ -26,6 +26,11 @@
         {% endif %}
       {% endfor %}
 
+      {% assign collection_list = site.notes %}
+      {% for collection in collection_list %}
+          <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
+      {% endfor %}
+
       <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
     </nav>
 
