@@ -1,0 +1,27 @@
+# From: https://mindsers.blog/post/https-using-nginx-certbot-docker/
+# When creating certificates, you might need to 
+#   (1) run as `user: root`
+#   (2) change permissions on the certificate files:
+#       https://community.letsencrypt.org/t/permission-denied-to-etc-letsencrypt-live/72892
+
+version: '3'
+
+services:
+  webserver:
+    image: nginx:latest
+    user: root
+    ports:
+      - 80:80
+      - 443:443
+    restart: always
+    volumes:
+      - ./nginx/conf/:/etc/nginx/conf.d/:ro
+      - ./certbot/www:/var/www/certbot/:ro
+      - ./certbot/conf/:/etc/nginx/ssl/:ro
+      - ./_site/:/var/www/html/
+  certbot:
+    image: certbot/certbot:latest
+    user: root
+    volumes:
+      - ./certbot/www/:/var/www/certbot/:rw
+      - ./certbot/conf/:/etc/letsencrypt/:rw
