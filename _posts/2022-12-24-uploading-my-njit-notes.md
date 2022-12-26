@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Open-sourcing my NJIT study guides.
+permalink: /posts/uploading-my-njit-notes
 ---
 
 Check them out [here](note).

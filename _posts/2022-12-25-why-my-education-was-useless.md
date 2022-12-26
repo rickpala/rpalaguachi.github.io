@@ -1,6 +1,6 @@
 ---
-layout: page
-title: Formal education was useless
+layout: post
+title: What my formal education really taught me
 ---
 
 ### And there I was
@@ -41,5 +41,4 @@ Merry Christmas.
 
 Ricky
 
-[MediumNginxDocker]:
-    https://pentacent.medium.com/nginx-and-lets-encrypt-with-docker-in-less-than-5-minutes-b4b8a60d3a71
+[MediumNginxDocker]: https://pentacent.medium.com/nginx-and-lets-encrypt-with-docker-in-less-than-5-minutes-b4b8a60d3a71
