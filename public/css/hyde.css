@@ -126,11 +126,18 @@ a.sidebar-nav-item:focus {
   padding-bottom: 4rem;
 }
 
+
 @media (min-width: 48em) {
   .content {
     max-width: 38rem;
     margin-left: 20rem;
     margin-right: 2rem;
+  }
+
+  table {
+    display: inline-block;
+    max-width: 38rem;
+    overflow-x: scroll;
   }
 }
 
