@@ -42,7 +42,7 @@ author:
 paginate:         5
 
 # Custom vars
-version:          0.1
+version:          2
 
 github:
   repo:           https://github.com/rpalaguachi/rpalaguachi.github.io
